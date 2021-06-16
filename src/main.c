@@ -4,7 +4,7 @@ int main(void)
 {
 	int m, n, k;
     int **a = NULL, ***b = NULL;
-    int i, j, o;
+    int i, j;
 
     /* nhap 3 so nguyen duong m, n, k */
     printf("nhap gia tri m = ");
