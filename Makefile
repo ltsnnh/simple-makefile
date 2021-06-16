@@ -47,7 +47,8 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.cpp
 .PHONY: clean
 clean:
 	-rm -r main
-	-rm -r $(OBJDIR)/* 
+	-rm -r $(OBJDIR)/%.o
+	-rm -r $(OBJDIR)/%.d
 
 # Include the .d makefiles. The - at the front suppresses the errors of missing
 # Makefiles. Initially, all the .d files will be missing, and we don't want those
