@@ -1,4 +1,4 @@
-#include "sysincl.h"
+#include "main.h"
 
 void task_1(int *p)
 {
